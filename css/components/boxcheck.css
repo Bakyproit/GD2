@@ -1,0 +1,32 @@
+.box__check {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+.box__check input{
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 5;
+    background: url('../../assets/img/ic_checkbox_active.5a4982e1.svg');
+
+}
+input:checked ~ .checkmark{
+    background: url('../../assets/img/ic_checkbox_active.5a4982e1.svg');
+}
+
+.checkmark{
+    display: inline-block;
+    background: url('../../assets/img/ic_checkbox_gray.545380ea.svg');
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+    position: relative;
+}
+/* .box__check:hover .checkmark{
+    background: url('../../assets/img/ic_checkbox_hover.d04300f4.svg') no-repeat 0 0;
+} */

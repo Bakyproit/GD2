@@ -1,0 +1,108 @@
+@import url(./components/icon.css);
+@import url(./components/button.css);
+@import url(./components/boxcheck.css);
+@import url(./components/notification.css);
+@import url(./components/textfield.css);
+@import url(./components/usermenu.css);
+@import url(./components/table.css);
+@import url(./components/pagination.css);
+@import url(./components/dropdownlist.css);
+@import url(./components/popupfilter.css);
+@import url(./components/addemulation.css);
+@import url(./components/updateemulation.css);
+@import url(./components/sidebarmenu.css);
+
+@import url(./layout/navigation.css);
+@import url(./layout/sidebar.css);
+@import url(./layout/maincontent.css);
+@import url(./reponsive/reponsive.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-size: 14px;
+}
+
+:root {
+  --primary-color: #ff6d00;
+  --primary-bg: #fbe9e7;
+  --primary-li: #eff7ff;
+  --white-color: #fff;
+  --color-icon: #666666;
+  --color-text: #212121;
+  --color-hover: #f5f5f5;
+  --color-title: #1f1f1f;
+  --color-border: #137ae8;
+  --bg-li: #f2f2f2;
+  --color-toolip: #1b1066;
+  --url-image2: url("../../assets/img/CeGo_Sprites.c193503b.svg");
+  --url-image3: url("../../assets/img/ic_notify1_48.32c89c11.svg");
+  --url-image4: url("../../assets/img/ic_notify2_48.f7368ebb.svg");
+  --url-image5: url("../../assets/img/ic_notify3_48.66c09975.svg");
+  --url-image6: url("../../assets/img/ic_notify4_48.a8440a87.svg");
+  --url-image7: url("../../assets/img/ic_change_password.35654efd.svg");
+  --value-with: 20px;
+  --value-height: 20px;
+  --value-item-icon: 40px;
+  --value-padding: 2px;
+  --border-radius: 4px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 56px 1fr;
+  grid-template-areas:
+    "navigation navigation"
+    "sidebar__expand maincontent";
+    overflow: hidden;  
+}
+::-webkit-scrollbar {
+  background: var(--white-color);
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    z-index: 200;
+  background: #cdd3d6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.text-center {
+  text-align: center;
+}
+
+.bb-right {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+.text-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.block {
+  display: block;
+}
+.open {
+  display: flex;
+}
+.close {
+  display: none;
+}

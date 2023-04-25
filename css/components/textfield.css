@@ -1,0 +1,12 @@
+
+.inputfield{
+    height: 36px;
+    padding: 8px 8px 8px 12px;
+    color: var(--color-title);
+    background: var(--white-color);
+    outline: none;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+}
+

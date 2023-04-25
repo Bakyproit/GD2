@@ -1,0 +1,27 @@
+
+
+.updateemulation{
+    /* display: block ; */
+    display: none;
+}
+
+.status__title{
+    font-weight: bold;
+    font-size: 14px;
+    color : var(--color-tilte) ;
+    line-height: 20px ;
+    margin-top: 16px;
+}
+.status__content{
+    margin-top: 8px;
+}
+.default{
+    background: var(--bg-li) ;
+}
+
+.dropdown input:focus{
+    border: 1px solid  var(--bg-li);
+}
+.text-note:hover{
+    border : 1px solid var(--bg-li);
+}

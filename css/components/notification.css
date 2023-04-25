@@ -1,0 +1,172 @@
+
+.navigation__right-notification-list {
+  width: 460px;
+  background: var(--white-color);
+  border-radius: 8px;
+  box-shadow: 0 0 16px rgba(23, 27, 42, 0.24);
+  z-index: 99;
+  position: absolute;
+  top: 68px;
+  right: 13px;
+  display: none;
+}
+.navigation__right-notification-list::before {
+  content: "";
+  border: 20px solid;
+  border-color: transparent transparent var(--white-color) transparent;
+  position: absolute;
+  top: -27px;
+  right: 195px;
+}
+.navigation__right-notification-list::after{
+  content: "";
+  border: 20px solid;
+  border-color: transparent transparent transparent transparent;
+  position: absolute;
+  top: -34px;
+  right: 189px;
+}
+.navigation__right-notification-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 16px 24px;
+  cursor: context-menu;
+}
+.navigation__right-notification-header-all {
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  width: 108px;
+}
+.navigation__right-notification-all {
+  display: flex;
+}
+.navigation__right-notification-all-title {
+  font-weight: 400;
+  color: #6a727d;
+  padding: 3.5px 0;
+  margin-right: 4.08px;
+  cursor: auto;
+}
+.navigation__right-notification-all-icon {
+  background: var(--url-image2) no-repeat -167px -48px;
+  cursor: pointer;
+  color: #6a727d;
+  position: relative;
+}
+
+
+/* display */
+
+/*  */
+.navigation__right-notification-all-list {
+  width: 230px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 16px rgba(23, 27, 42, 0.24);
+  background: var(--white-color);
+  position: absolute;
+  top: 27px;
+  right: -6px;
+  display: none;
+}
+.navigation__right-notification-all-list::before{
+  content: "";
+  border: 20px solid; 
+  border-color: transparent transparent transparent transparent;
+  position: absolute;
+  top: -18px;
+  right: -1px;
+}
+
+.navigation__right-notification-all-item {
+  color: var(--color-text);
+  padding: 12px 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.navigation__right-notification-all-item:first-child {
+  margin-top: 16px;
+}
+.navigation__right-notification-all-item:last-child{
+  margin-bottom: 16px;
+}
+.navigation__right-notification-all-item:hover {
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  background: #e0ebff;
+}
+/*  */
+.navigation__right-notification-header-all-icon {
+  background: var(--url-image2) no-repeat -216px -73px;
+  cursor: pointer;
+}
+
+/* filter */
+.navigation__right-notification-filter {
+  height: 40px;
+  background: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  cursor: context-menu;
+}
+.navigation__right-notification-filter-item {
+  font-weight: 500;
+  padding: 10px 0 11px;
+  text-align: center;
+  line-height: 19px;
+  color: #6a727d;
+  cursor: pointer;
+}
+.navigation__right-notification-filter-item--active {
+  font-weight: 700;
+  color: #2680eb;
+  border-bottom: 3px solid #2680eb;
+}
+
+/* notification-item */
+.navigation__right-notification-item-list {
+  overflow-y: scroll;
+  max-height: 430px;
+  /* max-height: 640px; */
+}
+
+.navigation__right-notification-item {
+  padding: 12px 24px;
+  display: flex;
+}
+.navigation__right-notification-item--active {
+  background: #e9f2fd;
+}
+.navigation__right-notification-item-icon {
+  background: var(--url-image3) no-repeat 0 0;
+}
+.navigation__right-notification-item-icon2 {
+  background: var(--url-image4) no-repeat 0 0;
+}
+.navigation__right-notification-item-icon3 {
+  background: var(--url-image5) no-repeat 0 0;
+}
+.navigation__right-notification-item-icon4 {
+  background: var(--url-image6) no-repeat 0 0;
+}
+
+.navigation__right-notification-item-content {
+  width: 360px;
+  margin-left: 6px;
+}
+.navigation__right-notification-item-title {
+  line-height: 19.5px;
+  text-align: left;
+  color: var(--color-text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.navigation__right-notification-item-time {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-icon);
+}
