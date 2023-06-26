@@ -8,7 +8,6 @@
     z-index: 100;
     position: relative;
 }
-
 /* ================================================ */
 .sidebar__expand.sidebar__less{
     width: 73px;
@@ -89,7 +88,12 @@
 .sidebar__expand-item-categary{
     /* position: relative; */
 }
-
+.sidebar__expand-item-instruct{
+}
+.box__sidebar{
+   border : 1px solid #ddd ;
+   margin-bottom: 4px;
+}
 .sidebar__expand-item-icon{
     background: var(--url-image2) no-repeat 0 0;
     height: 24px;
@@ -190,7 +194,7 @@
     width: 200px;
     background: var(--bg-li);
     position: absolute;
-    bottom: 0;
+    bottom: 24px;
    
 }
 .sidebar__expand-btn:hover{

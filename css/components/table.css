@@ -2,27 +2,60 @@
   background: var(--white-color);
   border-radius: var(--border-radius);
   box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, 0.1);
-  height: calc(100vh - 198px);
+  height: calc(100vh - 196px);
   margin: 0 24px 24px 0;
   position: relative;
 }
 
 .table__box {
   width: 100%;
-  height: calc(100% - 50px);
-  /* overflow-y: scroll; */
+  height: calc(100% - 48px);
+  overflow-y :scroll ;
 }
 
-table {
+.table__main{
   width: 100%;
-  /* height: 300px; */
+  height: 528px;
   border-collapse: collapse;
   cursor: pointer;
 }
+.table__header{
+  
+  z-index: 9;
+  background: var(--white-color);
+  position: sticky;
+  top: 0;
+}
+.table__tilte,
+.table__item{
+  display: flex;
+}
+.table__checkbox{
+  width: 53px;
+  position: sticky;
+  left: 0;
+  top:0 ;
+}
+.table__brand{
+  width:26%;
+}
+.table__id{
+  width: 12%;
+}
+.table__people{
+  width: 18%;
+}
+.table__grant{
+  width: 17%;
+}
+.table__movement{
+  width: 14%;
 
-table tr {
-  display: grid;
-  grid-template-columns: 56px 3fr 2fr 3fr 3fr 3fr 3fr;
+}
+.td__status{
+  width: 20%;
+  display: flex;
+  position: relative;
 }
 th,
 td {
@@ -33,6 +66,7 @@ td {
   border-bottom: 1px solid #e0e0e0;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 th:last-child,
 td:last-child {
@@ -43,10 +77,10 @@ th {
   color: #1f1f1f;
   background: var(--bg-li);
 }
-.table__tr:hover {
+.table__item:hover {
   background: var(--primary-bg);
 }
-.table__tr.active {
+.table__item.active {
   background: #e0ebff;
 }
 
@@ -71,7 +105,7 @@ th {
   background: var(--url-image2) no-repeat -28px -141px;
 }
 .status__text {
-  padding: 3px 0;
+  line-height: 24px;
 }
 
 tbody tr:hover .box__act {

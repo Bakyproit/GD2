@@ -19,9 +19,6 @@
     background: var(--bg-li) ;
 }
 
-.dropdown input:focus{
-    border: 1px solid  var(--bg-li);
-}
 .text-note:hover{
     border : 1px solid var(--bg-li);
 }

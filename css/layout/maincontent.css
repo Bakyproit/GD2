@@ -8,7 +8,6 @@
   box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, 0.1);
   padding: 24px 0 0 24px;
   background: #f4f5f8;
-  /* transition:  .5s ; */
 }
 
 .maincontent__title-name{
@@ -70,6 +69,7 @@
   /* display: none; */
 }
 .btn__add{
+  border  : 1px solid #3395ff ;
   background: #007aff;
   border-radius: var(--border-radius);
 }
@@ -107,6 +107,8 @@
   margin-left: 4px;
 }
 .maincontent__act-cancel {
+  border: none;
+  background: #f4f5f8;
   margin-left: 12px;
   color: #1a73e8;
 }

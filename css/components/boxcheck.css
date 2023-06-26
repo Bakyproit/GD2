@@ -1,32 +1,24 @@
-.box__check {
-    position: relative;
-    display: inline-block;
-    padding: 0;
+
+.box__check{
+    width: 20px;
+    height: 20px;
 }
 .box__check input{
-    position: absolute;
     cursor: pointer;
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: 100%;
     margin: 0;
-    padding: 0;
-    opacity: 0;
-    z-index: 5;
-    background: url('../../assets/img/ic_checkbox_active.5a4982e1.svg');
-
-}
-input:checked ~ .checkmark{
-    background: url('../../assets/img/ic_checkbox_active.5a4982e1.svg');
+    position: relative;
 }
 
 .checkmark{
     display: inline-block;
-    background: url('../../assets/img/ic_checkbox_gray.545380ea.svg');
-    width: 24px;
-    height: 24px;
+    background: var(--url-image2) no-repeat -541px -144px;
+    width: 20px;
+    height: 20px;
     vertical-align: bottom;
-    position: relative;
+    position: absolute;
+    left:15px ;
+    top: 16px;
 }
-/* .box__check:hover .checkmark{
-    background: url('../../assets/img/ic_checkbox_hover.d04300f4.svg') no-repeat 0 0;
-} */
+

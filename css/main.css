@@ -70,8 +70,9 @@ ul {
   grid-template-areas:
     "navigation navigation"
     "sidebar__expand maincontent";
-    overflow: hidden;  
+  overflow: hidden;  
 }
+
 ::-webkit-scrollbar {
   background: var(--white-color);
   width: 8px;

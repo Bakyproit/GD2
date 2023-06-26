@@ -6,7 +6,6 @@
   cursor: pointer;
   box-sizing: border-box;
 }
-
 .btn__link {
   padding: 8px 0;
   color: #137ae8;
@@ -23,5 +22,9 @@
   line-height: 18px;
   text-align: center;
   color: #000;
+}
+.btn__focus:focus{
+  border: 1px solid  #39AC66; 
+  outline: #39ac66;
 }
 
