@@ -15,7 +15,6 @@
 @import url(./layout/navigation.css);
 @import url(./layout/sidebar.css);
 @import url(./layout/maincontent.css);
-@import url(./reponsive/reponsive.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 body {
